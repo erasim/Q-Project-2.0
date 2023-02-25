@@ -1,3 +1,59 @@
-.Rightsidebar-main{    width: 20%;
+/** @format */
 
-text-align: center;}
+.Rightsidebar-main {
+	width: 15%;
+	border: 1px solid grey;
+
+	text-align: center;
+}
+.Rightsidebar-group-box {
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid gray;
+}
+.Rightsidebar-charts {
+	display: inline-flex;
+	width: 100%;
+	height: 100px;
+}
+.Rightsidebar-title {
+	border-top: 1px solid gray;
+}
+.Rightsidebar-chart-box-title {
+	text-align: center;
+	width: 50%;
+}
+.Rightsidebar-chart-box-title p {
+	font-size: 10px;
+}
+.Rightsidebar-chart-box-chart {
+	width: 50%;
+}
+.Rightsidebar-title {
+	display: inline-flex;
+	width: 100%;
+	border-top: 1px solid gray;
+}
+.Rightsidebar-chart-box-chart img {
+	width: 80%;
+}
+.Rightsidebar-charts2 {
+	display: inline-flex;
+	width: 100%;
+}
+.Rightsidebar-title2 {
+	display: inline-flex;
+	font-size: 10px;
+	width: 100%;
+	border-top: 1px solid gray;
+	margin-top: 5px;
+}
+.Rightsidebar-chart-box-title2 {
+	width: 30%;
+}
+.Rightsidebar-action-order-nav{display: inline-flex; width: 100%; }
+.Rightsidebar-action-order-nav-menu{width: 33%;}
+.Rightsidebar-action-order-table{display: inline-flex; width: 100%;}
+.Rightsidebar-action-order-index1 {width: 30%;}
+.Rightsidebar-action-order-index2 {width: 70%;}
+.Rightsidebar-action-order-table p{font-size: 12px; margin: 0px;}
