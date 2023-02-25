@@ -1,0 +1,12 @@
+.Leftsidebar-main{width: 10%; height: 1200px;
+border: 1px solid gray;
+background-color: rgb(228, 225, 225);}
+.Leftsidebar-icon-top-box{ margin-top: 18px;}
+.Leftsidebar-icon-top-box svg{margin-bottom: 10px;
+ }
+ .Leftsidebar-icon-bottom-box{ left: 57px;
+    position: absolute;
+    bottom: -64cqmax;}
+
+    .Leftsidebar-icon-bottom-box svg{    margin-bottom: 29px;
+        vertical-align: middle;}
