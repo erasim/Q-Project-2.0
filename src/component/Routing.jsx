@@ -3,9 +3,9 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import AddPolicy from "./Admin/AddPolicy";
-import Deshboard from "./Admin/Deshboard";
+
 import Sighup from "./Admin/Sighup";
-import Home from "./home/Home";
+
 import Shop from "./home/Shop";
 import SignIn from "./login/SignIn";
 
@@ -17,7 +17,7 @@ const Routing = () => {
 		<Routes>
 			<Route path='/sighup' element={<Sighup/>} />
 			<Route path='/addpolicy' element={<AddPolicy/>} />
-			<Route path='/home' element={<Shop/>} />
+			<Route path='/*' element={<Shop/>} />
 			<Route path='/auth' element={<SignIn />} />
 			
 			<Route path='/login' element={< SignIn/>} />

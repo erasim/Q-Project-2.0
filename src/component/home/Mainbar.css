@@ -1,13 +1,15 @@
 /** @format */
 
 .Mainbar-main {
-	width: 75%;
+	width: 82%;
+	border-top: 1px solid rgb(218, 218, 218);
+	padding: 5px;
 }
 .sub-navbar {
 	display: inline-flex;
 	width: 100%;
 	background-color: rgb(228, 225, 225);
-	padding: 10px;
+	padding: 10px; border-radius: 5px; height: 50px;
 }
 .Mainbar-main-sub-navbar-products {
 	margin: auto;
@@ -43,7 +45,9 @@
 .sub-navbar-filterbar-main {
 	display: inline-flex;
 	width: 100%;
-	border-bottom: 1px solid gray;
+	border-radius: 5px;
+	border-bottom: 1px solid grey;
+	
 }
 .sub-navbar-filterbar-left {
 	margin: auto;
@@ -56,6 +60,7 @@
 .sub-navbar-filterbar button {
 	background-color: none;
 	border: 0.3px solid gray;
+	border-radius: 5px;
 }
 .sub-navbar-filterbar svg {
 	margin-right: 10px;
@@ -64,7 +69,12 @@
 	display: inline-flex;
 }
 .sub-navbar-filterbar-right {
-	margin: auto;
+	margin: auto; margin-right: 10px;
+}
+.sub-navbar-filterbar-right svg {
+    width: 22px;
+   
+   
 }
 
 .Mainbar-main-products-box {
