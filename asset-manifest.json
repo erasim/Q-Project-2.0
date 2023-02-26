@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Q-Project-2.0/static/css/main.86f49251.css",
+    "main.css": "/Q-Project-2.0/static/css/main.a110d9ec.css",
     "main.js": "/Q-Project-2.0/static/js/main.e80c21a5.js",
     "static/js/787.151c3cdf.chunk.js": "/Q-Project-2.0/static/js/787.151c3cdf.chunk.js",
     "static/media/city-4.jpg": "/Q-Project-2.0/static/media/city-4.183873c8cb633103ceb6.jpg",
     "static/media/button-background.JPG": "/Q-Project-2.0/static/media/button-background.c553f3a75f21d255b0c4.JPG",
     "index.html": "/Q-Project-2.0/index.html",
     "static/media/login-pic-left-side2.svg": "/Q-Project-2.0/static/media/login-pic-left-side2.6fa16b217c1626db8b288cc50de9fb8a.svg",
-    "main.86f49251.css.map": "/Q-Project-2.0/static/css/main.86f49251.css.map",
+    "main.a110d9ec.css.map": "/Q-Project-2.0/static/css/main.a110d9ec.css.map",
     "main.e80c21a5.js.map": "/Q-Project-2.0/static/js/main.e80c21a5.js.map",
     "787.151c3cdf.chunk.js.map": "/Q-Project-2.0/static/js/787.151c3cdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86f49251.css",
+    "static/css/main.a110d9ec.css",
     "static/js/main.e80c21a5.js"
   ]
 }
