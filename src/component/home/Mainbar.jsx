@@ -4,6 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Mainbar.css";
 import pic from '../../assite/images/city-4.jpg'
+import tic from '../../assite/images/right-tic.jpg'
 
 const Mainbar = () => {
 	return (
@@ -128,84 +129,84 @@ const Mainbar = () => {
 
       <div className="Mainbar-main-products-box">
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+          <input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+        <input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
-          <input type='checkbox'/>
+		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
           <p>Product name</p>
           <button>&600</button>

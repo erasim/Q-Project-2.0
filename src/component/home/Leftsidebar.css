@@ -1,12 +1,45 @@
-.Leftsidebar-main{width: 4%; height: 1200px;
-border: 1px solid gray; 
-background-color: rgb(228, 225, 225);}
-.Leftsidebar-icon-top-box{ margin-top: 18px;}
-.Leftsidebar-icon-top-box svg{margin-bottom: 10px;
- }
- .Leftsidebar-icon-bottom-box{ left: 18px;
-    position: absolute;
-    bottom: -740px;}
+/** @format */
 
-    .Leftsidebar-icon-bottom-box svg{    margin-bottom: 2px;
-        vertical-align: middle;}
+.Leftsidebar-main {
+	width: 4%;
+	border: 1px solid gray;
+	background-color: rgb(228, 225, 225);
+}
+.Leftsidebar-icon-top-box {
+	margin-top: 18px;
+	margin-left: 11px;
+    
+}
+
+.Leftsidebar-icon-top-box svg {
+	margin-top: -5.2px;
+    background-color: cornsilk;
+    border-radius: 8px;
+}
+.Leftsidebar-icon-bottom-box {
+	left: 18px;
+	position: absolute;
+	bottom: -700px;
+}
+
+.Leftsidebar-icon-bottom-box svg {
+	margin-bottom: -3px;
+	vertical-align: middle;
+}
+.Leftsidebar-icon-top-circle {
+	border: 1px solid black;
+	width: 25px;
+	height: 25px;
+	border-radius: 15px;
+}
+.Leftsidebar-icon-bottom-box {
+	height: 100%;
+	margin-left: -6px;
+}
+.Leftsidebar-icon-bottom-box .Leftsidebar-icon-top-circle {
+	margin-bottom: 15px;
+}
+.Leftsidebar-icon-top-circle img {
+	width: 100%;
+	border-radius: 10px;
+}

@@ -6,10 +6,13 @@
 	padding: 5px;
 }
 .sub-navbar {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	display: inline-flex;
 	width: 100%;
 	background-color: rgb(228, 225, 225);
-	padding: 10px; border-radius: 5px; height: 50px;
+	padding: 10px;
+	border-radius: 5px;
+	height: 50px;
 }
 .Mainbar-main-sub-navbar-products {
 	margin: auto;
@@ -37,6 +40,7 @@
 	border-color: #6091ff;
 	border-radius: 14px;
 	margin: 5px;
+	box-shadow: rgba(176, 176, 243, 0.2) 0px 7px 29px 0px;
 }
 .Mainbar-main-sub-navbar-button svg {
 	margin-right: 10px;
@@ -47,7 +51,6 @@
 	width: 100%;
 	border-radius: 5px;
 	border-bottom: 1px solid grey;
-	
 }
 .sub-navbar-filterbar-left {
 	margin: auto;
@@ -58,9 +61,12 @@
 	margin: 10px;
 }
 .sub-navbar-filterbar button {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	background-color: honeydew;
 	background-color: none;
 	border: 0.3px solid gray;
 	border-radius: 5px;
+	margin: 0px, 20px;
 }
 .sub-navbar-filterbar svg {
 	margin-right: 10px;
@@ -69,34 +75,61 @@
 	display: inline-flex;
 }
 .sub-navbar-filterbar-right {
-	margin: auto; margin-right: 10px;
+	margin: auto;
+	margin-right: 10px;
 }
 .sub-navbar-filterbar-right svg {
-    width: 22px;
-   
-   
+	width: 22px;
 }
 
 .Mainbar-main-products-box {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-    flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+	flex-wrap: wrap;
 }
 
 .Mainbar-main-product {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	border: 1px solid gray;
 	margin: 10px;
 	text-align: center;
 	width: 200px;
-    border-radius: 8px;
-    background-color:rgb(228, 225, 225);;
+	border-radius: 10px;
+	background-color: rgb(228, 225, 225);
 }
-.Mainbar-main-product img {margin-top: 30px;
-    margin-bottom: 10px;
+.Mainbar-main-product img {
+	margin-top: 30px;
+	margin-bottom: 10px;
 	width: 80%;
 }
-.Mainbar-main-product input{position: absolute;
-    margin-left: -10px; margin-top: 10px;}
+.Mainbar-main-product input {
+	position: absolute;
+	margin-left: -10px;
+	margin-top: 10px;
+}
 
-    .Mainbar-main-product button{margin-bottom: 10px; border: none; border-radius: 10px;}
+.Mainbar-main-product button {
+	margin-bottom: 10px;
+	border: none;
+	border-radius: 10px;
+}
+
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+	
+}
+
+.checkbox-round:checked {
+    background-color: rgb(25, 14, 187);
+}

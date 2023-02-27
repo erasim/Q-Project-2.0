@@ -7,7 +7,7 @@ import './Shop.css'
 const Shop = () => {
   return (
     <div className='shop'>
-        <h1>Shop home page</h1>
+    
 <div className='shop-box'>
 
 <Leftsidebar/>
