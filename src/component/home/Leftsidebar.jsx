@@ -11,7 +11,7 @@ const Leftsidebar = () => {
 			{/* Copmpass */}
 			<div className='Leftsidebar-icon-top-box'>
 				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
+					<div className='Leftsidebar-icon-top-circle-top'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
 							width='16'
@@ -27,7 +27,7 @@ const Leftsidebar = () => {
 				<br />
 				{/* star  */}
 				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
+					<div className='Leftsidebar-icon-top-circle-top'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
 							width='16'
@@ -42,7 +42,7 @@ const Leftsidebar = () => {
 				<br />
 				{/* Graphup arrow */}
 				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
+					<div className='Leftsidebar-icon-top-circle-top'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
 							width='16'
@@ -60,7 +60,7 @@ const Leftsidebar = () => {
 				<br />
 				{/* Globe */}
 				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
+					<div className='Leftsidebar-icon-top-circle-top'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
 							width='16'
@@ -76,7 +76,7 @@ const Leftsidebar = () => {
 				<br />
 				{/* Building */}
 				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
+					<div className='Leftsidebar-icon-top-circle-top'>
 						<svg
 							xmlns='http://www.w3.org/2000/svg'
 							width='16'

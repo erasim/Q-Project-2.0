@@ -26,11 +26,14 @@
 	margin-bottom: -3px;
 	vertical-align: middle;
 }
-.Leftsidebar-icon-top-circle {
+.Leftsidebar-icon-top-circle-top svg {
 	border: 1px solid black;
-	width: 25px;
-	height: 25px;
+	width: 27px;
+	height: 27px;
+	padding: 5px;
+	background-color: #ffffff;
 	border-radius: 15px;
+	margin-right: 15px;
 }
 .Leftsidebar-icon-bottom-box {
 	height: 100%;
@@ -39,7 +42,16 @@
 .Leftsidebar-icon-bottom-box .Leftsidebar-icon-top-circle {
 	margin-bottom: 15px;
 }
+
+.Leftsidebar-icon-top-circle{	border: 1px solid black;
+	width: 27px;
+	height: 27px;
+	padding: 0px;
+	background-color: #ffffff;
+	border-radius: 15px;
+}
 .Leftsidebar-icon-top-circle img {
 	width: 100%;
-	border-radius: 10px;
+	border-radius: 15px;
+
 }
