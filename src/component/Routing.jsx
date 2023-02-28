@@ -8,6 +8,7 @@ import Sighup from "./Admin/Sighup";
 
 import Shop from "./home/Shop";
 import SignIn from "./login/SignIn";
+import Products from "./Products/Products";
 
 
 const Routing = () => {
@@ -19,6 +20,7 @@ const Routing = () => {
 			<Route path='/addpolicy' element={<AddPolicy/>} />
 			<Route path='/*' element={<Shop/>} />
 			<Route path='/auth' element={<SignIn />} />
+			<Route path='/products/details' element={<Products />} />
 			
 			<Route path='/login' element={< SignIn/>} />
 			<Route path='/login/hr' element={< SignIn/>} />

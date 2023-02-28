@@ -135,6 +135,7 @@ const Mainbar = () => {
         <div className="Mainbar-main-product">
           <input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
+		  <Link to='products/details' >Product name</Link>
           <p>Product name</p>
           <button>&600</button>
         </div>
@@ -142,6 +143,7 @@ const Mainbar = () => {
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
           <img src={pic} />
+		  <Link to='products/details' >Product name</Link>
           <p>Product name</p>
           <button>&600</button>
         </div>
