@@ -18,15 +18,14 @@ const Products = () => {
     <div className='products-details-top-right'>
 <div className='products-details-top-right-img1'>
     <img src={Shoes} alt='img'  className='img1' />
-    {/* <img src={Design} alt='img' className='img2' />
-    <img src={shadow} alt='img' className='img3' /> */}
+   
 </div>
-{/* <div className='products-details-top-right-img2'>
+<div className='products-details-top-right-img2'>
     <img src={Design} alt='img'  />
 </div>
 <div className='products-details-top-right-img3'>
     <img src={shadow} alt='img'  />
-</div> */}
+</div>
     </div>
 </div>
 

@@ -13,9 +13,11 @@
 	text-align: center;
 	width: 50%;
     background-color: rgb(111, 111, 243);
-    background-image: url('../../Images/Design.png')  ,url('../../Images/shadow.png') ;
-    background-repeat: no-repeat, no-repeat;
-    background-position-x: center, 100;
+   
 }
-.products-details-top-right-img2{
- }
+.products-details-top-right-img1{width: 100%; position: relative; }
+.products-details-top-right-img1 img{width: 100%;}
+.products-details-top-right-img2{width: 100%; position: absolute;}
+.products-details-top-right-img2 img{width: 100%;} 
+.products-details-top-right-img3{width: 100%;}
+.products-details-top-right-img3 img{width: 100%;}
