@@ -1,7 +1,7 @@
 /** @format */
 
 .Mainbar-main {
-	width: 82%;
+width: 80%;
 	border-top: 1px solid rgb(218, 218, 218);
 	padding: 5px;
 }
@@ -38,18 +38,19 @@
 	width: 60%;
 }
 .Mainbar-main-sub-navbar-links a {
-	margin-left: 30px;
+	margin-left: 10px;
 	text-decoration: none;
 }
 .Mainbar-main-sub-navbar-button {
 	text-align: right;
 }
 .Mainbar-main-sub-navbar-button button {
+	font-size: 0.5rem;
 	border-radius: 10px;
 	background-color: #6091ff;
 	border-color: #6091ff;
 	border-radius: 14px;
-	margin: 5px;
+	margin: 0px;
 	box-shadow: rgba(176, 176, 243, 0.2) 0px 7px 29px 0px;
 }
 .Mainbar-main-sub-navbar-button svg {
@@ -57,10 +58,12 @@
 }
 
 .sub-navbar-filterbar-main {
+	box-shadow: rgba(176, 176, 243, 0.2) 0px 7px 29px 0px;
 	margin: 20px;
 	display: inline-flex;
-	width: 100%;
-	border-radius: 5px;
+	width: 96%;
+	align-items: center;
+	
 	border-bottom: 1px solid grey;
 }
 .sub-navbar-filterbar-left {
@@ -100,7 +103,7 @@
 	border: 1px solid black;
 	padding: 5px;
 	border-radius: 5px;
-	margin: 5px;
+	margin-right: 10px;
 }
 
 .Mainbar-main-products-box {
@@ -157,4 +160,10 @@
 @media screen and (max-width : 920px)
 {
 .sub-navbar-filterbar button span{display: none;}
+.Mainbar-main {
+	width: 100%;
+		
+	}
+	.sub-navbar-filterbar-left span{display: none;}
+	.Mainbar-main-sub-navbar-products svg{display: none;}
 }
