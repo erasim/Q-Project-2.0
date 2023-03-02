@@ -89,8 +89,8 @@
 }
 .popular-products-main-card {
 	
-	border-radius: 10px;
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	
+	
 }
 .popular-products-main-card img {
 	border-radius: 10px;
@@ -107,7 +107,8 @@
 .popular-products-main-card-item{ margin: 63px;
     width: 211px;
     border: 1px solid gray;
-    border-radius: 10px;}
+    border-radius: 10px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
 .popular-products-main-card-item-price {display: inline-flex; }
 .popular-products-main-card-item-price p{margin: 6px; font-size: 13px;}
 .popular-products-main-card-item-price button{border: none; border-radius: 4px;}
