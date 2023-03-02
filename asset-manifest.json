@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Q-Project-2.0/static/css/main.afdcda78.css",
-    "main.js": "/Q-Project-2.0/static/js/main.4dbd423b.js",
+    "main.css": "/Q-Project-2.0/static/css/main.2fb2ecea.css",
+    "main.js": "/Q-Project-2.0/static/js/main.fe8652f0.js",
     "static/js/787.151c3cdf.chunk.js": "/Q-Project-2.0/static/js/787.151c3cdf.chunk.js",
     "static/media/product001.png": "/Q-Project-2.0/static/media/product001.e456e9fcceeb5bb447c8.png",
     "static/media/city-4.jpg": "/Q-Project-2.0/static/media/city-4.183873c8cb633103ceb6.jpg",
@@ -10,12 +10,12 @@
     "static/media/button-background.JPG": "/Q-Project-2.0/static/media/button-background.c553f3a75f21d255b0c4.JPG",
     "index.html": "/Q-Project-2.0/index.html",
     "static/media/login-pic-left-side2.svg": "/Q-Project-2.0/static/media/login-pic-left-side2.6fa16b217c1626db8b288cc50de9fb8a.svg",
-    "main.afdcda78.css.map": "/Q-Project-2.0/static/css/main.afdcda78.css.map",
-    "main.4dbd423b.js.map": "/Q-Project-2.0/static/js/main.4dbd423b.js.map",
+    "main.2fb2ecea.css.map": "/Q-Project-2.0/static/css/main.2fb2ecea.css.map",
+    "main.fe8652f0.js.map": "/Q-Project-2.0/static/js/main.fe8652f0.js.map",
     "787.151c3cdf.chunk.js.map": "/Q-Project-2.0/static/js/787.151c3cdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afdcda78.css",
-    "static/js/main.4dbd423b.js"
+    "static/css/main.2fb2ecea.css",
+    "static/js/main.fe8652f0.js"
   ]
 }
