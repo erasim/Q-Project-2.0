@@ -3,9 +3,12 @@
 import React from "react";
 import "./Rightsidebar.css";
 import pic from "../../assite/images/city-4.jpg";
-import chart1 from '../../Images/chart1.png'
-import chart2 from '../../Images/chart2.png'
-
+import chart1 from "../../Images/chart1.png";
+import chart2 from "../../Images/chart2.png";
+import chart3 from "../../Images/chart3.png";
+import chart4 from "../../Images/chart4.png";
+import chart5 from "../../Images/chart5.png";
+import chart6 from "../../Images/chart6.png";
 
 const Rightsidebar = () => {
 	return (
@@ -18,7 +21,7 @@ const Rightsidebar = () => {
 					</div>
 					<div className='Rightsidebar-chart-box-chart'>
 						<img src={chart1} alt='chart' />
-						<img src={chart2} alt='chart' className="chart1-line" />
+						<img src={chart2} alt='chart' className='chart1-line' />
 					</div>
 				</div>
 				<div className='Rightsidebar-title'>
@@ -36,9 +39,11 @@ const Rightsidebar = () => {
 				<div className='Rightsidebar-charts'>
 					<div className='Rightsidebar-chart-box-title'>
 						<p>Total sessions</p>
+						<span>456</span>
 					</div>
 					<div className='Rightsidebar-chart-box-chart'>
-						<img src={pic} alt='chart' />
+						<img src={chart3} alt='chart' />
+						<img src={chart4} alt='chart' className='chart1-line' />
 					</div>
 				</div>
 				<div className='Rightsidebar-title2'>
@@ -59,10 +64,11 @@ const Rightsidebar = () => {
 				<div className='Rightsidebar-charts'>
 					<div className='Rightsidebar-chart-box-title'>
 						<p>Total Sell</p>
-						<span>$281.90</span>
+						<span>4.43%</span>
 					</div>
 					<div className='Rightsidebar-chart-box-chart'>
-						<img src={pic} alt='chart' />
+						<img src={chart5} alt='chart5' />
+						<img src={chart6} alt='chart6' className='chart2-line' />
 					</div>
 				</div>
 				<div className='Rightsidebar-title'>
@@ -91,47 +97,59 @@ const Rightsidebar = () => {
 						</svg>
 					</div>
 				</div>
-        <div className='Rightsidebar-action-order-table'>
-						<div className='Rightsidebar-action-order-index1'><p>11:30</p></div>
-						<div className='Rightsidebar-action-order-index2'>
-							<p>new catagery added</p> <p>Moble phone</p>
-						</div>
+				<div className='Rightsidebar-action-order-table'>
+					<div className='Rightsidebar-action-order-index1'>
+						<p>11:30</p>
 					</div>
+					<div className='Rightsidebar-action-order-index2'>
+						<p>new catagery added</p> <p>Moble phone</p>
+					</div>
+				</div>
 
-          <div className='Rightsidebar-action-order-table'>
-						<div className='Rightsidebar-action-order-index1'><p>11:30</p></div>
-						<div className='Rightsidebar-action-order-index2'>
-							<p>new catagery added</p> <p>Moble phone</p>
-						</div>
+				<div className='Rightsidebar-action-order-table'>
+					<div className='Rightsidebar-action-order-index1'>
+						<p>11:30</p>
 					</div>
+					<div className='Rightsidebar-action-order-index2'>
+						<p>new catagery added</p> <p>Moble phone</p>
+					</div>
+				</div>
 
-          <div className='Rightsidebar-action-order-table'>
-						<div className='Rightsidebar-action-order-index1'><p>11:30</p></div>
-						<div className='Rightsidebar-action-order-index2'>
-							<p>new catagery added</p> <p>Moble phone</p>
-						</div>
+				<div className='Rightsidebar-action-order-table'>
+					<div className='Rightsidebar-action-order-index1'>
+						<p>11:30</p>
 					</div>
+					<div className='Rightsidebar-action-order-index2'>
+						<p>new catagery added</p> <p>Moble phone</p>
+					</div>
+				</div>
 
-          <div className='Rightsidebar-action-order-table'>
-						<div className='Rightsidebar-action-order-index1'><p>11:30</p></div>
-						<div className='Rightsidebar-action-order-index2'>
-							<p>new catagery added</p> <p>Moble phone</p>
-						</div>
+				<div className='Rightsidebar-action-order-table'>
+					<div className='Rightsidebar-action-order-index1'>
+						<p>11:30</p>
 					</div>
+					<div className='Rightsidebar-action-order-index2'>
+						<p>new catagery added</p> <p>Moble phone</p>
+					</div>
+				</div>
 
-          <div className='Rightsidebar-action-order-table'>
-						<div className='Rightsidebar-action-order-index1'><p>11:30</p></div>
-						<div className='Rightsidebar-action-order-index2'>
-							<p>new catagery added</p> <p>Moble phone</p>
-						</div>
+				<div className='Rightsidebar-action-order-table'>
+					<div className='Rightsidebar-action-order-index1'>
+						<p>11:30</p>
 					</div>
+					<div className='Rightsidebar-action-order-index2'>
+						<p>new catagery added</p> <p>Moble phone</p>
+					</div>
+				</div>
 
-          <div className='Rightsidebar-action-order-table'>
-						<div className='Rightsidebar-action-order-index1'><p>11:30</p></div>
-						<div className='Rightsidebar-action-order-index2'>
-							<p>new catagery added</p> <p>Moble phone</p>
-						</div>
+				<div className='Rightsidebar-action-order-table'>
+					<div className='Rightsidebar-action-order-index1'>
+						<p>11:30</p>
 					</div>
+					<div className='Rightsidebar-action-order-index2'>
+						<p>new catagery added</p> <p>Moble phone</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	);
