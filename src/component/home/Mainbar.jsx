@@ -1,34 +1,31 @@
 /** @format */
 
-import React,{useState} from "react";
-import { NavLink, Link } from 'react-router-dom'
+import React, { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
 import "./Mainbar.css";
-import pic from '../../assite/images/city-4.jpg'
-import tic from '../../assite/images/right-tic.jpg'
-import product001 from '../../Images/product001.png'
-import product002 from '../../Images/product002.png'
-import product003 from '../../Images/product003.png'
-import product004 from '../../Images/product004.png'
-import product005 from '../../Images/product005.png'
-import product006 from '../../Images/product006.png'
-import product007 from '../../Images/product007.png'
-import product008 from '../../Images/product008.png'
-import product009 from '../../Images/product009.png'
-import product010 from '../../Images/product010.png'
-import product011 from '../../Images/product011.png'
-import product012 from '../../Images/product012.png'
-import product013 from '../../Images/product013.png'
-import product014 from '../../Images/product014.png'
-import product015 from '../../Images/product015.png'
-import product016 from '../../Images/product016.png'
-import oktic from '../../Images/oktic.png'
-
-
-
+import pic from "../../assite/images/city-4.jpg";
+import tic from "../../assite/images/right-tic.jpg";
+import product001 from "../../Images/product001.png";
+import product002 from "../../Images/product002.png";
+import product003 from "../../Images/product003.png";
+import product004 from "../../Images/product004.png";
+import product005 from "../../Images/product005.png";
+import product006 from "../../Images/product006.png";
+import product007 from "../../Images/product007.png";
+import product008 from "../../Images/product008.png";
+import product009 from "../../Images/product009.png";
+import product010 from "../../Images/product010.png";
+import product011 from "../../Images/product011.png";
+import product012 from "../../Images/product012.png";
+import product013 from "../../Images/product013.png";
+import product014 from "../../Images/product014.png";
+import product015 from "../../Images/product015.png";
+import product016 from "../../Images/product016.png";
+import oktic from "../../Images/oktic.png";
 
 const Mainbar = () => {
-	const[Active, setActive]=  useState(false);
-	
+	const [Active, setActive] = useState(false);
+
 	return (
 		<div className='Mainbar-main'>
 			<div className='sub-navbar'>
@@ -46,11 +43,20 @@ const Mainbar = () => {
 				</div>
 
 				<div className='Mainbar-main-sub-navbar-links'>
-				
-					<NavLink to={"/a"} activeClassName="active">Active</NavLink>
-					<NavLink to={"/b"} activeClassName="active">Draft</NavLink>
-					<NavLink to={"/c"} activeClassName="active">Assembely</NavLink>
+					<NavLink to={"/a"} activeClassName='active'>
+						Active
+					</NavLink>
+					<NavLink to={"/b"} activeClassName='active'>
+						Draft
+					</NavLink>
+					<NavLink to={"/c"} activeClassName='active'>
+						Assembely
+					</NavLink>
 				</div>
+
+				
+
+
 				<div className='Mainbar-main-sub-navbar-button'>
 					<button>
 						<svg
@@ -68,8 +74,9 @@ const Mainbar = () => {
 				</div>
 			</div>
 			<div className='sub-navbar-filterbar-main'>
-				<div className="sub-navbar-filterbar-left">
-					<input type='checkbox'  className="checkbox-round" /> <span>Select All</span>
+				<div className='sub-navbar-filterbar-left'>
+					<input type='checkbox' className='checkbox-round' />{" "}
+					<span>Select All</span>
 				</div>
 				<div className='sub-navbar-filterbar'>
 					<button>
@@ -83,7 +90,6 @@ const Mainbar = () => {
 							<path d='M6 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-2-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z' />
 						</svg>
 						<span>Filter</span>
-						
 					</button>
 					<button>
 						<svg
@@ -96,7 +102,6 @@ const Mainbar = () => {
 							<path d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z' />
 						</svg>
 						<span>Search</span>
-						
 					</button>
 					<button>
 						<svg
@@ -109,7 +114,6 @@ const Mainbar = () => {
 							<path d='M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z' />
 						</svg>
 						<span>Edit</span>
-						
 					</button>
 					<button>
 						<svg
@@ -126,7 +130,6 @@ const Mainbar = () => {
 							/>
 						</svg>
 						<span>Delete</span>
-						
 					</button>
 				</div>
 				<div className='sub-navbar-filterbar-right'>
@@ -154,95 +157,94 @@ const Mainbar = () => {
 				</div>
 			</div>
 
-      <div className="Mainbar-main-products-box">
-        <div className="Mainbar-main-product">
-          <input type='checkbox'  className="checkbox-round" />
-          <img src={product001} />
-		 
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+			<div className='Mainbar-main-products-box'>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product001} />
+<Link to={'./Products' } >
+					<p>Shoes</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product002} />
-		  {/* <Link to='products/details' >Product name</Link> */}
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product002} />
+					{/* <Link to='products/details' >Product name</Link> */}
+					<Link to={'./Products' } ><p>Apple Air Pods 2</p></Link>
+					
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product003} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product003} />
+					<Link to={'./Products' } ><p>Samsung Smart Watch</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product004} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product004} />
+					<Link to={'./Products' } ><p>Apple Monitor Pro</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product005} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product005} />
+					<Link to={'./Products' } ><p>Apple Watch Series 4</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product006} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product006} />
+					<Link to={'./Products' } ><p>Google Pixel 4 XL</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-        <input type='checkbox'  className="checkbox-round" />
-          <img src={product007} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product007} />
+					<Link to={'./Products' } ><p>Amazon Smart Speaker</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product008} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product008} />
+					<Link to={'./Products' } ><p>Apple MacBook Pro 16</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product009} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product009} />
+					<Link to={'./Products' } ><p>Apple ipod</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product010} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product010} />
+					<Link to={'./Products' } ><p>Microsoft Surface Book</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product011} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product011} />
+					<Link to={'./Products' } ><p>Google Nest</p></Link>
+					<button>$600</button>
+				</div>
 
-        <div className="Mainbar-main-product">
-		<input type='checkbox'  className="checkbox-round" />
-          <img src={product012} />
-          <p>Product name</p>
-          <button>&600</button>
-        </div>
-
-       
-      </div>
+				<div className='Mainbar-main-product'>
+					<input type='checkbox' className='checkbox-round' />
+					<img src={product012} />
+					<Link to={'./Products' } ><p>Apple iMac Pro</p></Link>
+					<button>$600</button>
+				</div>
+			</div>
 		</div>
 	);
 };

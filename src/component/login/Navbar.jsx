@@ -6,6 +6,8 @@ import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { useEffect } from "react";
 import { setCurrrentUser } from "../state/currentUser";
+import Ellipse1 from "../../Images/Ellipse1.png";
+import navicon from "../../Images/nav-icon.png";
 const Navbar = () => {
 	const dispatch = useDispatch();
 	const navigate = useNavigate();
@@ -23,8 +25,14 @@ const Navbar = () => {
 	return (
 		<nav className='navbar navbar-expand-lg bg-body-tertiary'>
 			<div className='container-fluid'>
+				<Link to='/home' className='nav-link2' >
+					<img src={Ellipse1} alt='icon' />
+					<img src={navicon} alt='icon'  style={{marginTop:-7,     marginLeft:-46}}/>
+				</Link>
 				<Link to='/home' className='nav-link'>
-					Company
+					
+					
+					Constructor
 				</Link>
 				<button
 					className='navbar-toggler'
