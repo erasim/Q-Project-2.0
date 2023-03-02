@@ -8,22 +8,26 @@
 .Leftsidebar-icon-top-box {
 	margin-top: 18px;
 	margin-left: 11px;
-    
 }
 
-.Leftsidebar-icon-top-circle-top{width: 50px;
-	height: 50px;}
-	.Leftsidebar-icon-top-circle-top .internal-img{margin-top: -110px;
-		margin-left: 24px;}
+.Leftsidebar-icon-top-circle-top {
+	width: 50px;
+	height: 50px;
+}
+.Leftsidebar-icon-top-circle-top .internal-img {
+	margin-top: -110px;
+	margin-left: 24px;
+}
 .Leftsidebar-icon-top-box svg {
 	margin-top: -5.2px;
-    background-color: cornsilk;
-    border-radius: 8px;
+	background-color: cornsilk;
+	border-radius: 8px;
 }
 .Leftsidebar-icon-bottom-box {
 	left: 18px;
 	position: absolute;
 	bottom: -700px;
+	margin-bottom: 45px;
 }
 
 .Leftsidebar-icon-bottom-box svg {
@@ -47,7 +51,8 @@
 	margin-bottom: 15px;
 }
 
-.Leftsidebar-icon-top-circle{	border: 1px solid black;
+.Leftsidebar-icon-top-circle {
+	border: 1px solid black;
 	width: 27px;
 	height: 27px;
 	padding: 0px;
@@ -57,5 +62,4 @@
 .Leftsidebar-icon-top-circle img {
 	width: 100%;
 	border-radius: 15px;
-
 }

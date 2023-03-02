@@ -1,7 +1,7 @@
 /** @format */
 
 .Mainbar-main {
-width: 80%;
+	width: 80%;
 	border-top: 1px solid rgb(218, 218, 218);
 	padding: 5px;
 }
@@ -26,7 +26,6 @@ width: 80%;
 	padding: 5px;
 	background-color: #ffffff;
 	border-radius: 5px;
-
 }
 
 .Mainbar-main-sub-navbar-products a {
@@ -63,14 +62,16 @@ width: 80%;
 	display: inline-flex;
 	width: 96%;
 	align-items: center;
-	
+
 	border-bottom: 1px solid grey;
 }
 .sub-navbar-filterbar-left {
 	margin: auto;
 	width: 30%;
 }
-.sub-navbar-filterbar-left span{font-size: 1.2em;}
+.sub-navbar-filterbar-left span {
+	font-size: 1.2em;
+}
 .sub-navbar-filterbar {
 	width: 100%;
 	margin: 10px;
@@ -88,7 +89,7 @@ width: 80%;
 }
 
 .sub-navbar-filterbar svg {
-	margin-right: auto
+	margin-right: auto;
 }
 .sub-navbar-filterbar-right {
 	display: inline-flex;
@@ -108,35 +109,53 @@ width: 80%;
 
 .Mainbar-main-products-box {
 	display: flex;
+
 	justify-content: center;
 	margin: 10px;
 	flex-wrap: wrap;
+	background: #FFFFFF;
+box-shadow: 7px 2px 4px rgba(0, 0, 0, 0.02);
+border-radius: 0px 0px 23px 23px;
 }
 
 .Mainbar-main-product {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	border: 1px solid gray;
+	
 	margin: 10px;
 	text-align: center;
-	width: 200px;
+	width: 221px;
+height: 224px;
 	border-radius: 10px;
-	background-color: rgb(228, 225, 225);
+	background-color: #FAFBFC;
 }
+.Mainbar-main-product p {
+	color: #6b7a99;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+}
+
 .Mainbar-main-product img {
 	margin-top: 30px;
 	margin-bottom: 10px;
-	width: 80%;
+	width: 86.55px;
+height: 100px;
 }
 .Mainbar-main-product input {
 	position: absolute;
-	margin-left: -10px;
+	margin-left: -60px;
 	margin-top: 10px;
 }
 
 .Mainbar-main-product button {
 	margin-bottom: 10px;
 	border: none;
-	border-radius: 10px;
+	
+	background: #FFFFFF;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+border-radius: 25px;
 }
 
 .checkbox-round {
@@ -153,17 +172,24 @@ width: 80%;
 }
 
 .checkbox-round:checked {
-	background-color: rgb(25, 14, 187);
+	background-color: #8833FF;;
+	background-image: url('../../Images/oktic.png');
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
 }
 
-
-@media screen and (max-width : 920px)
-{
-.sub-navbar-filterbar button span{display: none;}
-.Mainbar-main {
-	width: 100%;
-		
+@media screen and (max-width: 920px) {
+	.sub-navbar-filterbar button span {
+		display: none;
 	}
-	.sub-navbar-filterbar-left span{display: none;}
-	.Mainbar-main-sub-navbar-products svg{display: none;}
+	.Mainbar-main {
+		width: 100%;
+	}
+	.sub-navbar-filterbar-left span {
+		display: none;
+	}
+	.Mainbar-main-sub-navbar-products svg {
+		display: none;
+	}
 }

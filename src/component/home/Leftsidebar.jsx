@@ -9,6 +9,7 @@ import icon2 from "../../Images/icon2.png";
 import icon3 from "../../Images/icon3.png";
 import icon4 from "../../Images/icon4.svg";
 import profile from "../../Images/profile.png";
+import icon5 from "../../Images/plus-circle.svg";
 
 
 
@@ -58,29 +59,37 @@ const Leftsidebar = () => {
 				</div>
 			</div>
 			<div className='Leftsidebar-icon-bottom-box'>
-				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
-					<img src={Ellipse1} alt='Ellipse1' />
-					<img src={profile} alt='Ellipse1' className="internal-img"/>
+			<div className='Leftsidebar-icon-box'>
+					<div className='Leftsidebar-icon-top-circle-top'>
+					<img src={Ellipse1} alt='Ellipse1'  style={{margin:-19}}/>
+
+					
+					<img src={icon5} alt='Ellipse1' style={{marginTop:-70}} />
 					</div>
 				</div>
 				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
+					<div className='Leftsidebar-icon-top-circle-top'>
+					{/* <img src={Ellipse1} alt='Ellipse1' /> */}
+					<img src={profile} alt='Ellipse1' />
+					</div>
+				</div>
+				<div className='Leftsidebar-icon-box'>
+					<div className='Leftsidebar-icon-top-circle-top'>
 						<img src={profile} alt='khan' />
 					</div>
 				</div>
 				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
+					<div className='Leftsidebar-icon-top-circle-top'>
 					<img src={profile} alt='khan' />
 					</div>
 				</div>
 				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
+					<div className='Leftsidebar-icon-top-circle-top'>
 					<img src={profile} alt='khan' />
 					</div>
 				</div>
 				<div className='Leftsidebar-icon-box'>
-					<div className='Leftsidebar-icon-top-circle'>
+					<div className='Leftsidebar-icon-top-circle-top'>
 					<img src={profile} alt='khan' />
 					</div>
 				</div>

@@ -5,6 +5,26 @@ import { Link } from "react-router-dom";
 import "./Mainbar.css";
 import pic from '../../assite/images/city-4.jpg'
 import tic from '../../assite/images/right-tic.jpg'
+import product001 from '../../Images/product001.png'
+import product002 from '../../Images/product002.png'
+import product003 from '../../Images/product003.png'
+import product004 from '../../Images/product004.png'
+import product005 from '../../Images/product005.png'
+import product006 from '../../Images/product006.png'
+import product007 from '../../Images/product007.png'
+import product008 from '../../Images/product008.png'
+import product009 from '../../Images/product009.png'
+import product010 from '../../Images/product010.png'
+import product011 from '../../Images/product011.png'
+import product012 from '../../Images/product012.png'
+import product013 from '../../Images/product013.png'
+import product014 from '../../Images/product014.png'
+import product015 from '../../Images/product015.png'
+import product016 from '../../Images/product016.png'
+import oktic from '../../Images/oktic.png'
+
+
+
 
 const Mainbar = () => {
 	return (
@@ -134,86 +154,86 @@ const Mainbar = () => {
       <div className="Mainbar-main-products-box">
         <div className="Mainbar-main-product">
           <input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
-		  <Link to='products/details' >Product name</Link>
+          <img src={product001} />
+		 
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
-		  <Link to='products/details' >Product name</Link>
+          <img src={product002} />
+		  {/* <Link to='products/details' >Product name</Link> */}
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product003} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product004} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product005} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product006} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
         <input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product007} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product008} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product009} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product010} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product011} />
           <p>Product name</p>
           <button>&600</button>
         </div>
 
         <div className="Mainbar-main-product">
 		<input type='checkbox'  className="checkbox-round" />
-          <img src={pic} />
+          <img src={product012} />
           <p>Product name</p>
           <button>&600</button>
         </div>
