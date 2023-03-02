@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Q-Project-2.0/static/css/main.5556ad8c.css",
-    "main.js": "/Q-Project-2.0/static/js/main.947bb47b.js",
+    "main.css": "/Q-Project-2.0/static/css/main.55180c2a.css",
+    "main.js": "/Q-Project-2.0/static/js/main.34f14301.js",
     "static/js/787.151c3cdf.chunk.js": "/Q-Project-2.0/static/js/787.151c3cdf.chunk.js",
     "static/media/product001.png": "/Q-Project-2.0/static/media/product001.e456e9fcceeb5bb447c8.png",
     "static/media/city-4.jpg": "/Q-Project-2.0/static/media/city-4.183873c8cb633103ceb6.jpg",
@@ -9,17 +9,26 @@
     "static/media/product014.png": "/Q-Project-2.0/static/media/product014.19ee02ae08700b5e28ca.png",
     "static/media/product016.png": "/Q-Project-2.0/static/media/product016.729cea9afe955b42d11f.png",
     "static/media/shadow.png": "/Q-Project-2.0/static/media/shadow.16da9885f41cdd6eefd2.png",
+    "static/media/product004.png": "/Q-Project-2.0/static/media/product004.ab07ae167c90dc882e93.png",
+    "static/media/product008.png": "/Q-Project-2.0/static/media/product008.3da2d6166ad6ca57cfbc.png",
+    "static/media/product009.png": "/Q-Project-2.0/static/media/product009.5235835b6e09037e7918.png",
+    "static/media/product005.png": "/Q-Project-2.0/static/media/product005.37a38ecb73950fe0ce53.png",
+    "static/media/product007.png": "/Q-Project-2.0/static/media/product007.7b12cabffa8ec0d6d4da.png",
+    "static/media/product010.png": "/Q-Project-2.0/static/media/product010.e9dbb189f00dcc304bb5.png",
     "static/media/Design.png": "/Q-Project-2.0/static/media/Design.7d9cce4cbcb6b397940b.png",
     "static/media/button-background.JPG": "/Q-Project-2.0/static/media/button-background.c553f3a75f21d255b0c4.JPG",
+    "static/media/product013.png": "/Q-Project-2.0/static/media/product013.1815e9e1c62d696cedb8.png",
+    "static/media/product012.png": "/Q-Project-2.0/static/media/product012.5fb3c46b7927a6f32f1b.png",
     "index.html": "/Q-Project-2.0/index.html",
     "static/media/login-pic-left-side2.svg": "/Q-Project-2.0/static/media/login-pic-left-side2.6fa16b217c1626db8b288cc50de9fb8a.svg",
     "static/media/icon4.svg": "/Q-Project-2.0/static/media/icon4.2cfe01e553c5c030181cc3b34af8cfd9.svg",
-    "main.5556ad8c.css.map": "/Q-Project-2.0/static/css/main.5556ad8c.css.map",
-    "main.947bb47b.js.map": "/Q-Project-2.0/static/js/main.947bb47b.js.map",
+    "static/media/plus-circle.svg": "/Q-Project-2.0/static/media/plus-circle.785f24db48aacfd8961367db6887ef20.svg",
+    "main.55180c2a.css.map": "/Q-Project-2.0/static/css/main.55180c2a.css.map",
+    "main.34f14301.js.map": "/Q-Project-2.0/static/js/main.34f14301.js.map",
     "787.151c3cdf.chunk.js.map": "/Q-Project-2.0/static/js/787.151c3cdf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5556ad8c.css",
-    "static/js/main.947bb47b.js"
+    "static/css/main.55180c2a.css",
+    "static/js/main.34f14301.js"
   ]
 }

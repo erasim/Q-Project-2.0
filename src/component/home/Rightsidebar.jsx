@@ -3,6 +3,9 @@
 import React from "react";
 import "./Rightsidebar.css";
 import pic from "../../assite/images/city-4.jpg";
+import chart1 from '../../Images/chart1.png'
+import chart2 from '../../Images/chart2.png'
+
 
 const Rightsidebar = () => {
 	return (
@@ -14,7 +17,8 @@ const Rightsidebar = () => {
 						<span>$281.90</span>
 					</div>
 					<div className='Rightsidebar-chart-box-chart'>
-						<img src={pic} alt='chart' />
+						<img src={chart1} alt='chart' />
+						<img src={chart2} alt='chart' className="chart1-line" />
 					</div>
 				</div>
 				<div className='Rightsidebar-title'>

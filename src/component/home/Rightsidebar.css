@@ -1,16 +1,19 @@
 /** @format */
 
 .Rightsidebar-main {
-	width: 15%;
-	border: 1px solid grey;
-
+	width: 20%;
+	padding: 5px;
+	background: #F7F8FA;
 	text-align: center;
 }
 .Rightsidebar-group-box {
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	margin: 5px;
 	border-radius: 8px;
-	border: 1px solid gray;
+	border: 1px solid gray; */
+	margin: 5px;
+	border: 2px solid #EDEFF2;
+border-radius: 19px;
 }
 .Rightsidebar-charts {
 	display: inline-flex;
@@ -25,28 +28,56 @@
 	width: 50%;
 }
 .Rightsidebar-chart-box-title p {
-	font-size: 10px;
+	margin-top: 14px;
+	font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+
+color: #6B7A99;
 }
+.Rightsidebar-chart-box-title span{font-family: 'ABeeZee';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	/* identical to box height */
+	
+	
+	color: #4D5E80;}
 .Rightsidebar-chart-box-chart {
 	width: 50%;
+	margin-top: 20px;
 }
+.Rightsidebar-chart-box-chart p{font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 11px;
+	line-height: 13px;
+	margin-top: 14px;
+	
+	color: #6B7A99;}
 .Rightsidebar-title {
+	vertical-align: middle;
 	display: inline-flex;
 	width: 100%;
-	border-top: 1px solid gray;
+	border: 2px solid #EDEFF2;
 }
 .Rightsidebar-chart-box-chart img {
 	width: 80%;
 }
+.Rightsidebar-chart-box-chart .chart1-line{margin-top: -98px;}
 .Rightsidebar-charts2 {
 	display: inline-flex;
 	width: 100%;
 }
 .Rightsidebar-title2 {
+	text-align: center;
 	display: inline-flex;
 	font-size: 10px;
 	width: 100%;
-	border-top: 1px solid gray;
+	border: 2px solid #EDEFF2;
 	margin-top: 5px;
 }
 .Rightsidebar-chart-box-title2 {

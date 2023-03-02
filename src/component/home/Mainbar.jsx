@@ -1,7 +1,7 @@
 /** @format */
 
-import React from "react";
-import { Link } from "react-router-dom";
+import React,{useState} from "react";
+import { NavLink, Link } from 'react-router-dom'
 import "./Mainbar.css";
 import pic from '../../assite/images/city-4.jpg'
 import tic from '../../assite/images/right-tic.jpg'
@@ -27,6 +27,8 @@ import oktic from '../../Images/oktic.png'
 
 
 const Mainbar = () => {
+	const[Active, setActive]=  useState(false);
+	
 	return (
 		<div className='Mainbar-main'>
 			<div className='sub-navbar'>
@@ -44,9 +46,10 @@ const Mainbar = () => {
 				</div>
 
 				<div className='Mainbar-main-sub-navbar-links'>
-					<Link to={"/addpolicy"}>Active</Link>
-					<Link to={"/addpolicy"}>Draft</Link>
-					<Link to={"/addpolicy"}>Assembely</Link>
+				
+					<NavLink to={"/a"} activeClassName="active">Active</NavLink>
+					<NavLink to={"/b"} activeClassName="active">Draft</NavLink>
+					<NavLink to={"/c"} activeClassName="active">Assembely</NavLink>
 				</div>
 				<div className='Mainbar-main-sub-navbar-button'>
 					<button>
@@ -66,7 +69,7 @@ const Mainbar = () => {
 			</div>
 			<div className='sub-navbar-filterbar-main'>
 				<div className="sub-navbar-filterbar-left">
-					<input type='checkbox' /> <span>Select All</span>
+					<input type='checkbox'  className="checkbox-round" /> <span>Select All</span>
 				</div>
 				<div className='sub-navbar-filterbar'>
 					<button>
