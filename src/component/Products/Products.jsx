@@ -6,7 +6,13 @@ import Shoes from "../../Images/product001.png";
 import Design from "../../Images/Design.png";
 import shadow from "../../Images/shadow.png";
 import Mask from "../../Images/Mask group.png";
-import pic from "../../assite/images/city-4.jpg";
+
+import product001 from "../../Images/product001.png";
+import product014 from "../../Images/product014.png";
+import product015 from "../../Images/product015.png";
+import product016 from "../../Images/product016.png";
+import Ellipse from "../../Images/Ellipse-10.png";
+import Vector from "../../Images/Vector.png";
 
 const Products = () => {
 	return (
@@ -15,8 +21,9 @@ const Products = () => {
 				<div className='products-details-top-left'>
 					<h1>PURCHASE YOUR SHOES NOW</h1>
 					<p>
-						there is some details of products jnjjj hkjhk hkhkhkh uuiuy
-						ukjjkbjkb ghcghc jlklk cgcghc kgu hvvjvj cfxfgdgfd bmnbh
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor morbi
+						velit turpis et dolor sit morbi odio id. Aliquam ultricies tortor
+						ac.
 					</p>
 					<button className=''>Shop now</button>
 					<img src={Mask} alt='img' />
@@ -91,40 +98,15 @@ const Products = () => {
 				<h1>POPULAR PRODUCTS</h1>
 				<div className='popular-products-main-card'>
 					<div className='popular-products-main-card-item'>
-						<img src={pic} alt='alt' />
-						<input type='checkbox' className='checkbox-round' />
-						<div className='popular-products-main-card-detail'>
-							<p>
-								{" "}
-								<svg
-									xmlns='http://www.w3.org/2000/svg'
-									width='16'
-									height='16'
-									fill='currentColor'
-									class='bi bi-star-fill'
-									viewBox='0 0 16 16'>
-									<path d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z' />
-								</svg>{" "}
-								1.1k Review{" "}
-							</p>
-							<p>Nike Running Shoes</p>
-							<div className='popular-products-main-card-item-price'>
-								<p>$100</p>
-								<p>$200 Sold out</p>{" "}
-								<p>
-									<button>Buy Now</button>
-								</p>
-							</div>
+						<div className='popular-products-main-card-item-img'>
+							<img src={product001} alt='alt' />
 						</div>
-					</div>
-
-
-					<div className='popular-products-main-card-item'>
-						<img src={pic} alt='alt' />
-						<input type='checkbox' className='checkbox-round' />
+						<div className='check-box-item'>
+							<img src={Ellipse} alt='alt' />
+							<img src={Vector} alt='alt' style={{ margin: -25 }} />
+						</div>
 						<div className='popular-products-main-card-detail'>
 							<p>
-								{" "}
 								<svg
 									xmlns='http://www.w3.org/2000/svg'
 									width='16'
@@ -134,12 +116,12 @@ const Products = () => {
 									viewBox='0 0 16 16'>
 									<path d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z' />
 								</svg>{" "}
-								1.1k Review{" "}
+								1.1k Review
 							</p>
 							<p>Nike Running Shoes</p>
 							<div className='popular-products-main-card-item-price'>
 								<p>$100</p>
-								<p>$200 Sold out</p>{" "}
+								<p className='sold-out'>$200 Sold out</p>
 								<p>
 									<button>Buy Now</button>
 								</p>
@@ -148,8 +130,13 @@ const Products = () => {
 					</div>
 
 					<div className='popular-products-main-card-item'>
-						<img src={pic} alt='alt' />
-						<input type='checkbox' className='checkbox-round' />
+						<div className='popular-products-main-card-item-img'>
+							<img src={product014} alt='alt' />
+						</div>
+						<div className='check-box-item'>
+							<img src={Ellipse} alt='alt' />
+							<img src={Vector} alt='alt' style={{ margin: -25 }} />
+						</div>
 						<div className='popular-products-main-card-detail'>
 							<p>
 								{" "}
@@ -161,13 +148,13 @@ const Products = () => {
 									class='bi bi-star-fill'
 									viewBox='0 0 16 16'>
 									<path d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z' />
-								</svg>{" "}
-								1.1k Review{" "}
+								</svg>
+								(11.6k Reviews)
 							</p>
 							<p>Nike Running Shoes</p>
 							<div className='popular-products-main-card-item-price'>
 								<p>$100</p>
-								<p>$200 Sold out</p>{" "}
+								<p className='sold-out'>$200 Sold out</p>{" "}
 								<p>
 									<button>Buy Now</button>
 								</p>
@@ -176,8 +163,13 @@ const Products = () => {
 					</div>
 
 					<div className='popular-products-main-card-item'>
-						<img src={pic} alt='alt' />
-						<input type='checkbox' className='checkbox-round' />
+						<div className='popular-products-main-card-item-img'>
+							<img src={product015} alt='alt' />
+						</div>
+						<div className='check-box-item'>
+							<img src={Ellipse} alt='alt' />
+							<img src={Vector} alt='alt' style={{ margin: -25 }} />
+						</div>
 						<div className='popular-products-main-card-detail'>
 							<p>
 								{" "}
@@ -189,8 +181,41 @@ const Products = () => {
 									class='bi bi-star-fill'
 									viewBox='0 0 16 16'>
 									<path d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z' />
-								</svg>{" "}
-								1.1k Review{" "}
+								</svg>
+								(11.6k Reviews)
+							</p>
+							<p>Nike Running Shoes</p>
+							<div className='popular-products-main-card-item-price'>
+								<p>$100</p>
+								<p className='sold-out'>$200 Sold out</p>{" "}
+								<p>
+									<button>Buy Now</button>
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div className='popular-products-main-card-item'>
+						<div className='popular-products-main-card-item-img'>
+							<img src={product016} alt='alt' />
+						</div>
+						<div className='check-box-item'>
+							<img src={Ellipse} alt='alt' />
+							<img src={Vector} alt='alt' style={{ margin: -25 }} />
+						</div>
+						<div className='popular-products-main-card-detail'>
+							<p>
+								{" "}
+								<svg
+									xmlns='http://www.w3.org/2000/svg'
+									width='16'
+									height='16'
+									fill='currentColor'
+									class='bi bi-star-fill'
+									viewBox='0 0 16 16'>
+									<path d='M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z' />
+								</svg>
+								(11.6k Reviews)
 							</p>
 							<p>Nike Running Shoes</p>
 							<div className='popular-products-main-card-item-price'>
