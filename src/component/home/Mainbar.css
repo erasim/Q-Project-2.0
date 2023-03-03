@@ -28,6 +28,8 @@
 	color: #c3cad9;
 }
 
+    .dropdown-content{display: none;}
+
 .Mainbar-main-sub-navbar-products a {
 	text-decoration: none;
 	margin-left: 10px;
@@ -39,11 +41,9 @@
 	color: #6b7a99;
 }
 
-
 .Mainbar-main-sub-navbar-links .active {
 	border-bottom: 2px solid blue;
 	padding: 10px;
-
 }
 .Mainbar-main-sub-navbar-links {
 	margin: auto;
@@ -52,34 +52,43 @@
 .Mainbar-main-sub-navbar-links a {
 	margin-left: 20px;
 	text-decoration: none;
-	font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 13px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 13px;
 }
 .Mainbar-main-sub-navbar-button {
 	text-align: right;
-margin: auto;
-	
+	margin: auto;
 }
 .Mainbar-main-sub-navbar-button button {
-	/* font-size: 0.6rem;
-	border-radius: 10px;
-	background-color: #6091ff;
-	border-color: #6091ff;
-	border-radius: 14px;
-	margin: 0px;
-	box-shadow: rgba(176, 176, 243, 0.2) 0px 7px 29px 0px; */
 	width: 138px;
-height: 42px;
-background: #8833FF;
-border-radius: 33px;
-border: none;
+	height: 42px;
+	background: #8833ff;
+	border-radius: 33px;
+	border: none;
 }
 .Mainbar-main-sub-navbar-button svg {
 	margin-right: 10px;
 }
+/* small add button */
+.Mainbar-main-sub-navbar-button2 svg {
+	margin-right: 10px;
+}
+.Mainbar-main-sub-navbar-button2 button {
+	width: 138px;
+	height: 42px;
+	background: #8833ff;
+	border-radius: 33px;
+	border: none;
+}
+.Mainbar-main-sub-navbar-button2 {
+	text-align: right;
+	margin: auto;
+	display: none;
+}
+/* end button small */
 
 .sub-navbar-filterbar-main {
 	background: #ffffff;
@@ -90,7 +99,6 @@ border: none;
 	display: inline-flex;
 	width: 98%;
 	align-items: center;
-
 }
 .sub-navbar-filterbar-left {
 	margin: auto;
@@ -118,7 +126,7 @@ border: none;
 	font-weight: 700;
 	font-size: 11px;
 	line-height: 13px;
-	color: #6B7A99;
+	color: #6b7a99;
 }
 .sub-navbar-filterbar button {
 	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -207,17 +215,15 @@ border: none;
 	background: #ffffff;
 	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
 	border-radius: 25px;
-	font-family: 'ABeeZee';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 12px;
-padding: 5px;
-/* identical to box height */
+	font-family: "ABeeZee";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 12px;
+	padding: 5px;
+	/* identical to box height */
 
-
-color: #92A1C1;
-
+	color: #92a1c1;
 }
 
 .checkbox-round {
@@ -253,6 +259,37 @@ color: #92A1C1;
 		color: #7d8fb3;
 	}
 	.Mainbar-main-sub-navbar-products svg {
+		display: none;
+	}
+	.sub-navbar-filterbar svg {
+		width: 13px;
+		height: 10px;
+	}
+	.sub-navbar-filterbar button {
+		background: #ffffff;
+		border: 2px solid #f2f4f8;
+		border-radius: 5px;
+		height: 30px;
+	}
+
+	.sub-navbar-filterbar-right svg {
+		width: 28px;
+		height: 28px;
+		margin-left: -9px;
+	}
+
+	.Mainbar-main-sub-navbar-button2 button {
+		width: 68px;
+		height: 27px;
+		font-size: 10px;
+	}
+	.Mainbar-main-sub-navbar-button2 {
+		display: block;
+	}
+	.Mainbar-main-sub-navbar-button {
+		display: none;
+	}
+	.Mainbar-main-sub-navbar-links {
 		display: none;
 	}
 }
