@@ -7,7 +7,7 @@
 }
 .sub-navbar {
 	display: inline-flex;
-	width: 100%;
+	width: 98%;
 	background: #ffffff;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
 	border-radius: 23px 23px 0px 0px;
@@ -55,7 +55,7 @@
 	font-family: 'Inter';
 font-style: normal;
 font-weight: 700;
-font-size: 11px;
+font-size: 14px;
 line-height: 13px;
 }
 .Mainbar-main-sub-navbar-button {
@@ -88,7 +88,7 @@ border: none;
 	margin-top: 20px;
 	margin-bottom: 3px;
 	display: inline-flex;
-	width: 100%;
+	width: 98%;
 	align-items: center;
 
 }
@@ -170,7 +170,7 @@ border: none;
 }
 
 .Mainbar-main-product {
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	/* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 
 	margin: 10px;
 	text-align: center;
